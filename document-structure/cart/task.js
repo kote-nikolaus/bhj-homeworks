@@ -3,7 +3,7 @@
 let increaseButtons = Array.from(document.getElementsByClassName('product__quantity-control_inc'));
 let decreaseButtons = Array.from(document.getElementsByClassName('product__quantity-control_dec'));
 let addButtons = Array.from(document.getElementsByClassName('product__add'));
-let cart = document.querySelector('.cart');
+let cart = document.querySelector('.cart__products');
 
 function increaseQuantity() {
   let quantity = this.closest('.product').querySelector('.product__quantity-value');
